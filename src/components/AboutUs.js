@@ -3,7 +3,7 @@ import "./AboutUsStyles.css";
 function AboutUs() {
   return (
     <div className="about-container">
-      <h1>Our History</h1>
+      <h1>Our History</h1> 
       <p>
       Edukatel was founded in 2021 with the mission to provide students with access 
       to quality education and connect them with passionate educators. We started 
