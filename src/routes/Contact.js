@@ -1,8 +1,8 @@
 import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
-import AboutImg from "../assets/contactUs.jpg";
 import Footer from "../components/Footer";
 import ContactForm from "../components/ContactForm";
+import ContactImg from "../assets/ContactUs.png";
 
 function Contact() {
   return (
@@ -10,8 +10,8 @@ function Contact() {
       <Navbar />
       <Hero
         cName="hero-mid"
-        heroImg={AboutImg}
-        title="Contact Us"
+        heroImg={ContactImg}
+        title=""
         btnClass="hide"
       />
       <ContactForm />

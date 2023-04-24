@@ -1,5 +1,5 @@
-import "./TripStyles.css";
-import TripData from "./TripData";
+import "./ServicesStyles.css";
+import ServicesData from "./ServicesData";
 import Trip1 from "../assets/Trip1.jpg";
 import Trip2 from "../assets/Trip2.jpg";
 import Trip3 from "../assets/Trip3.jpg";
@@ -10,7 +10,7 @@ function Trip() {
       <h1>Our Services</h1>
       <p>Top notch education starts with modern technology</p>
       <div className="tripcard">
-        <TripData
+        <ServicesData
           image={Trip1}
           heading="Online Tuition"
           text="Edukatel's online tuition service brings learning to your fingertips, 
@@ -22,7 +22,7 @@ function Trip() {
           attention you need to excel in your studies. Our online tuition service is 
           perfect for students who prefer a flexible and convenient learning experience."
         />
-        <TripData
+        <ServicesData
           image={Trip2}
           heading="Home Tuition"
           text="Edukatel's home tuition service provides personalized learning in the 
@@ -34,7 +34,7 @@ function Trip() {
           service is perfect for students who prefer a more intimate and personalized 
           learning experience."
         />
-        <TripData
+        <ServicesData
           image={Trip3}
           heading="Offline Tuition"
           text="Edukatel's offline tuition service offers personalized learning experiences 

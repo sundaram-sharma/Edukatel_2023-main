@@ -1,8 +1,8 @@
 import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
-import AboutImg from "../assets/service.jpg";
+import ServiceImg from "../assets/Services.png";
 import Footer from "../components/Footer";
-import Trip from "../components/Trip";
+import Services from "../components/Services";
 
 function Service() {
   return (
@@ -10,11 +10,11 @@ function Service() {
       <Navbar />
       <Hero
         cName="hero-mid"
-        heroImg={AboutImg}
-        title="Service"
+        heroImg={ServiceImg}
+        title=""
         btnClass="hide"
       />
-      <Trip />
+      <Services/>
       <Footer />
     </>
   );

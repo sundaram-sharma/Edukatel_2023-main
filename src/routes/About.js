@@ -1,6 +1,6 @@
 import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
-import AboutImg from "../assets/aboutUs.jpg";
+import AboutImg from "../assets/AboutUs.png";
 import Footer from "../components/Footer";
 import AboutUs from "../components/AboutUs";
 
@@ -11,7 +11,7 @@ function About() {
       <Hero
         cName="hero-mid"
         heroImg={AboutImg}
-        title="About Us"
+        title=""
         btnClass="hide"
       />
       <AboutUs />
